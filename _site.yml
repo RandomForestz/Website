@@ -1,0 +1,35 @@
+name: "Website"
+navbar: 
+  title: "Basic Website Creation"
+  left:
+    - text: "Basics"
+      menu:
+        - text: "Rmarkdown Basics"
+        - href: Basics.html
+        - text: "Rmarkdown Themes"
+        - href: Pretty.html
+    - text: "Rmarkdown Example"
+      menu:
+        - text: "Mapping Trees"
+        - href: trees.html
+    - text: "Website Set-up"
+    - menu:
+        - text: "Files Needed & Where to Put Them"
+        - href: files.html
+        - text: "The Index"
+        - href: the_index.html
+        - text: "The YAML"
+        - href: YAML.html
+    - text: "Website Building"
+    - menu:
+        - text: "Configure Build Tools"
+        - href: configure.html
+        - text: "Site Publishing"
+        - href: publish.html
+    - text: "Downloads"
+    - menu:
+        - text: "Rmarkdown Cheat Sheet"
+        - href: rmarkdowncheatsheet.pdf
+        - text: "RStudio IDE Cheat Sheet"
+        - href: rstudioide.pdf
+        

@@ -1,0 +1,73 @@
+---
+title: "Files Needed & Where to Put Them"
+output:
+ html_document:
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    toc_depth: 4
+    number_sections: False
+    theme: lumen
+  
+    
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+
+## Putting it All Together
+
+Now that we've seen some examples, Let's put it all together and develop a website. 
+
+We will focus on 3 necessary files:
+
+1. The _site.yml
+
+2. The Index
+
+3. The .Rmd
+
+Each has their own page, but we will also cover the very basics below.
+
+
+### .yml
+
+This is the bones of the website. You won't be able to see this page in your published website, just the structure defined in the .yml.
+
+### Index
+
+The index is the "homepage". It serves as the default page when someone visits your website.
+
+### .Rmd
+
+An Rmarkdown. These will serve as the pages in your website. 
+
+---
+
+## The Process in **Text** Format
+
+To develop a website in RStudio:
+
+### 1. Create a new R project (File > New Project)
+  - You can name this folder whatever you would like. 
+  - Every file you create will go into the folder that contains the R project.
+
+### 2. Open an .R file (File > New File > R Script)
+  - Save this file as "_site.yml" 
+
+### 3. Open an Rmarkdown file (File > New File > Rmarkdown)
+  - Save this file as "index.rmd"
+  
+### 4. Open an Rmarkdown file (File > New File > Rmarkdown)
+  - Save this file as the name of a website tab.
+  - repeat this process for however many tabs your website has.
+  - update _site.yml to include the .Rmds of your website tabs.
+  
+### 5. Configure Build Tools (Build > Configure Build Tools)
+  - Project Build Tools: Website
+  - Restart R to make sure the "Build" tabs appears in between "Connections" and "Tutorial" in your RStudio. 
+  
+### 6. Publish Files to your location of preference. 

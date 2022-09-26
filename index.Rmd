@@ -1,0 +1,53 @@
+---
+title: "Building Websites in R"
+author: "Josh Carrell - Ph.D. Student | Forest Sciences - Colorado State University"
+date: "Last Update: `r format(Sys.time(), '%B %d, %Y')`"
+output:
+ html_document:
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    toc_depth: 4
+    number_sections: False
+    theme: simplex
+    code_folding: 'hide'
+    
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+
+*If you build it, they will come... and make science accessible!*
+
+
+
+![Kevin Costner, fixated on your nutrient-rich Rmarkdown](D:/Basic_Website/Website/Field_of_dreams.gif)
+
+---
+
+# Reproducible Science
+
+Reproducible science is all about the power. The power to allow others access to your gigantic brain and understand
+what you researched, how you did it, and with what data. Pretty backwards idea for the 
+academic ego... just give them my hard work? Yes. The day of the ego is gone. Now is the day 
+of the Orc.
+
+It's really all about inclusion, and science is all about inclusion. But if science is all about 
+inclusion, then inclusion is all about inclusion. Seems pretty exclusive.
+
+IT IS! Exclusively your new set of tools to share with everyone......
+
+
+---
+
+## How to use this Website
+
+All the necessary information for building your own website in RStudio using
+a combination of .Rmd files, .yml files, and .html files as well as some Rmarkdown design tutorials, both basic and advanced.. 
+
+Rome wasn't built in a day, but your first website can be. 
+
+

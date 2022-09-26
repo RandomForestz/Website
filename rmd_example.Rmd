@@ -1,0 +1,23 @@
+---
+title: "rmd example"
+output:
+ html_document:
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    toc_depth: 4
+    number_sections: False
+    theme: darkly
+  
+    
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## The Index
+
+The index is the homepage of your site. On this website, it looks like this:
+
+

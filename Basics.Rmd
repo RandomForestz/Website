@@ -1,0 +1,169 @@
+---
+title: "Don't Be Basic"
+output:
+ html_document:
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    toc_depth: 4
+    number_sections: False
+    theme: darkly
+    code_folding: 'hide'
+    
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+
+## 1. Basic Construction and Customization
+
+Rmarkdowns offer your R script alternatives to just a script full of code. You can 
+create documents that look and feel more like a website that guides your reading and learning. 
+
+**Don't be basic, but learn the basics.**
+
+---
+
+An Rmarkdown is an **.Rmd** file. It's like a .R script but allows for common writing as well as code.
+
+You can create a new .Rmd file by going to:
+
+*File > New File > Rmarkdown* 
+
+OR
+
+Pressing the "New File" Icon below the File tab: ![](D:/Basic_Website/Website/new file.jpg) , and then selecting Rmarkdown.
+
+---
+
+### 1.1 Knitting
+
+Knitting is a traditional American past-time rich with History. It's also the way to turn this .Rmd file into a presentable document. Here, we focus on 3 different outputs.
+
+1. .html (Vital to the development of a website)
+
+2. .doc (for your classic word doc needs)
+
+3. .pdf (It's like a word doc but standoffish)
+
+**If you do not know about the types of documents above, start by learning here:**
+[ Learn More](https://www.amazon.com/Computers-Seniors-Dummies-Computer-Tech/dp/1119420318)
+
+---
+
+## 2 Rmarkdown Headers
+
+Every Rmarkdown comes with a header, or a section at the top of the file that allows for customization. It's super easy to make an Rmarkdown that can *wow* your audience and has the look and feel of a document that took a lot of time to create (but we won't tell them that).
+
+The basic .Rmd file comes with a standard header that looks like this:
+
+![](D:/Basic_Website/Website/basic_header.jpg)
+
+**Just replace "Untitled" with anything you want**
+
+
+
+---
+
+### 2.2 Adding a Dynamic Date 
+
+Sometimes it's nice to see when the last time something was updated. With many different ways to express date in R (https://www.stat.berkeley.edu/~s133/dates.html), I prefer the simple Month/Day/Year formatting.
+
+For future reference, the date can be found with the code below:
+
+>r format(Sys.time(), '%B %d, %Y')
+
+Real simple: 
+
+![](D:/Basic_Website/Website/date.jpg)
+
+
+---
+
+
+### 2.3 Adding a Table of Contents 
+
+You can provide a table of contents (interactive!) that may even float as you scroll on the page. That way, you're never lost. You are found. 
+
+It's quite simple! 
+
+__Do you want a table of contents:__   toc: true *or* toc: false (p.s, if you don't want a table of contents, you can just skip the rest of 2.3...)
+
+__Do you want the table of contents to float as you scroll:__  toc_float: true *or* toc_float: false
+
+__Do you want the table of contents to collapse by section header:__ toc_collapsed: true *or* toc_collapsed: false 
+
+__How do you want the structure of table of contents to look:__ toc_depth: **Number of headers**
+
+*For toc_depth:*
+Depth calls on how many headers you have put in your Rmarkdown, which links to the number of #pound signs
+
+For example:
+![](D:/Basic_Website/Website/header_sizes.jpg)
+
+
+
+Real simple: 
+
+![](D:/Basic_Website/Website/toc.jpg)
+
+
+---
+
+
+
+### 2.4 Code Folding 
+
+You're old enough to fold your own code. The whole Rmarkdown will have a clean look to it and allows the reader to only look at code they need to. How considerate of you.
+
+> code_folding: 'hide'
+
+It can make a a nice graph appear without all that messy code appearing:
+
+Push the button, check out the code.
+
+```{r, message=FALSE}
+library(ggplot2)
+
+ggplot(iris) +
+  geom_density(aes(x = Sepal.Length, fill = "Sepal Length"), alpha = .75) +
+  geom_density(aes(x = Sepal.Width, fill = "Sepal Width"), alpha = .75) +
+  geom_density(aes(x = Petal.Length, fill = "Petal Length"), alpha = .75) +
+  geom_density(aes(x = Petal.Width, fill = "Petal Width"), alpha = .75) +
+  labs(y = "Density", x = "Unit", fill = "Feature", title = "I'm a Plot!") +
+  theme_classic()
+```
+
+
+Real simple: 
+
+![](D:/Basic_Website/Website/folding.jpg)
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

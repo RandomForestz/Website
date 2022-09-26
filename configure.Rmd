@@ -1,0 +1,56 @@
+---
+title: "configure"
+output:
+ html_document:
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    toc_depth: 4
+    number_sections: False
+    theme: cosmo
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Configure Build Tools
+
+This is the process that goes on behind the scenes and is pretty simple to do.
+
+Make sure you have the library *rmarkdown* installed.
+
+### Build Setup
+
+Go to the Build tab.
+
+Select "Configure Build Tools"
+
+Once you click, you should see a panel like this appear:
+
+
+![](D:/Basic_Website/Website/build.jpg)
+
+
+--- 
+
+Select *Website* under the drop down tab for Project Build Tools.
+
+
+### Build
+
+Once you have completed that, Restart your RStudio. 
+
+A Build tab should appear in the upper right section of your IDE (or somewhere else if you moved it...)
+
+![](D:/Basic_Website/Website/buildtab.jpg)
+
+
+
+--- 
+
+Once you select that tab, you should see another tab called **Build Website** with an excellent little mining pickaxe.
+
+![](D:/Basic_Website/Website/buildaxe.jpg)
+
+Select that button and your website will "Build". This just means all of your .Rmd files will run and run dynamically. The structure determined by your .yml file will shape your website.

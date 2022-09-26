@@ -1,0 +1,57 @@
+---
+title: "The YAML File"
+output:
+ html_document:
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    toc_depth: 4
+    number_sections: False
+    theme: sandstone
+    code_folding: 'hide'
+    
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE)
+```
+
+## .yml
+
+The .yml (YAML, *pronounced "Yam-uhl"*) is essential to design a website. While being really easy to create, it can also be easy to mess up. 
+
+The YAML file defines the structure for the overall website. It tells where Rmarkdowns to work and whether they a homepage or sub-page. 
+
+---
+
+## .yml Creation
+
+Simple open an R Script (File > New File > R Script) and save it in your website project folder as "_site.yml".
+
+This will completely change this function of this file and your website will know automatically how to use it. 
+
+---
+
+## .yml Structure
+
+
+The .yml file should be structured like this:
+
+![](D:/Basic_Website/Website/yml_structure.jpg)
+
+---
+
+To get a better idea of what the .yml for this website looks like:
+
+![Compare this code to how this website looks](D:/Basic_Website/Website/yaml.jpg)
+
+
+
+
+
+
+
+
+
+
+

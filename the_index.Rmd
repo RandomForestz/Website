@@ -1,0 +1,41 @@
+---
+title: "The Index"
+output:
+ html_document:
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    toc_depth: 4
+    number_sections: False
+    theme: flatly
+  
+    
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+
+## The Index
+
+The index is the homepage of your site. On this website:
+
+it looks like this behind the scenes:
+
+![](D:/Basic_Website/Website/indexcode.jpg)
+
+
+And looks like this up front:
+
+![](D:/Basic_Website/Website/indexpage.jpg)
+---
+
+### Creating the Index
+
+The index is no different than any other Rmarkdown you create, only it's name *must be index*. 
+
+As you build your website with all the needed files, RStudio knows exactly what the index.rmd is and will automatically make this your website default page. 
+
+

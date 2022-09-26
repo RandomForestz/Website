@@ -1,0 +1,166 @@
+---
+title: "Tell Me I'm Pretty"
+output:
+ html_document:
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    toc_depth: 4
+    number_sections: False
+    theme: lumen
+  
+    
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+
+## Themes
+
+Right away you should be thinking, *"This is different."*
+
+<span style = "color:green">How astute.<span>
+
+Yes, this is a different theme. In fact, from here on out, every following page will be in a different theme.
+
+---
+
+A Theme is a pre-developed CSS script built into either an R package (we'll address those below) or into the default settings in RStudio. It's just a different outfit for your Rmarkdown.
+
+This theme is "lumen". 
+
+![The best theme is Defiant Jazz](D:/Basic_Website/Website/lumon.jpeg)
+
+---
+
+## How to Change Theme
+
+Thus far, we have walked through changing the header section from the [Don't Be Basic](D:/Basic_Website/Website/_site/Basics.html) section. It looks like this:
+
+![](D:/Basic_Website/Website/header_final_notheme.jpg)
+
+---
+
+let's add one final addition to our header: *theme:*
+
+It should look like this:
+
+![Theme in <span style = "color:red">RED<span> circle.](D:/Basic_Website/Website/header_theme.jpg)
+
+To view the darkly output return to the [Home Page](D:/Basic_Website/Website/_site/Index.html) or the [Don't Be Basic](D:/Basic_Website/Website/_site/Basics.html) page.
+
+---
+
+## Pre-Packaged Themes
+
+Check out some sweet themes below, all images are of this page in a different outfit. 
+
+
+---
+
+
+### bootstrap
+
+![Clean, Classic, Boring](D:/Basic_Website/Website/bootstrap.jpg)
+
+
+---
+
+### cerulean
+
+![Hope you like blue](D:/Basic_Website/Website/cerulean.jpg)
+
+
+---
+
+### cosmo
+
+![Sure.](D:/Basic_Website/Website/cosmo.jpg)
+
+---
+
+### flatly
+
+![Yeah](D:/Basic_Website/Website/flatly.jpg)
+
+---
+
+### journal
+
+![Okay](D:/Basic_Website/Website/journal.jpg)
+
+---
+
+### paper
+
+![Aight](D:/Basic_Website/Website/paper.jpg)
+
+---
+
+### readable
+
+![It's readable](D:/Basic_Website/Website/readable.jpg)
+
+---
+
+### sandstone
+
+![I have nothing good to say](D:/Basic_Website/Website/sandstone.jpg)
+
+---
+
+### simplex
+
+![](D:/Basic_Website/Website/simplex.jpg)
+
+
+---
+
+### spacelab
+
+![Nevermind I like this one](D:/Basic_Website/Website/spacelab.jpg)
+
+---
+
+### united
+
+![](D:/Basic_Website/Website/united.jpg)
+
+
+---
+
+### yeti
+
+![](D:/Basic_Website/Website/yeti.jpg)
+
+
+
+
+## Themes from other Packages
+
+Some people do awesome things and make even more themes to choose from by creating an R package. To use a different package, follow the formatting found in the picture directly below:
+
+![](D:/Basic_Website/Website/pkg_themes.jpg)
+
+---
+
+Below are some themes that are available through other R packages:
+
+### hrbrthemes
+
+https://github.com/hrbrmstr/hrbrthemes
+
+### prettydoc
+
+https://prettydoc.statr.me/
+
+
+
+
+
+
+
+
